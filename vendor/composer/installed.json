@@ -1,0 +1,99 @@
+[
+    {
+        "name": "wpbones/wpbones",
+        "version": "0.8.32",
+        "version_normalized": "0.8.32.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wpbones/WPBones.git",
+            "reference": "b6b45f0aa7ff20da31978f8f28000d0122f7e07e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wpbones/WPBones/zipball/b6b45f0aa7ff20da31978f8f28000d0122f7e07e",
+            "reference": "b6b45f0aa7ff20da31978f8f28000d0122f7e07e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "time": "2017-01-31 16:35:19",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WPXServerLight\\WPBones\\": "src/"
+            },
+            "files": [
+                "src/helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Giovambattista Fazioli",
+                "email": "giovambattista.fazioli@gmail.com",
+                "homepage": "http://undolog.com"
+            }
+        ],
+        "description": "WordPress framework for Laravel developers",
+        "homepage": "https://github.com/wpbones/wpbones",
+        "keywords": [
+            "framework",
+            "laravel",
+            "plugins",
+            "themes",
+            "wordpress",
+            "wpbones"
+        ]
+    },
+    {
+        "name": "wpbones/morris-php",
+        "version": "1.0.10",
+        "version_normalized": "1.0.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wpbones/morris-php.git",
+            "reference": "0e9a279dca4799b5d73e1aabdd0a2ad15f32fc5c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wpbones/morris-php/zipball/0e9a279dca4799b5d73e1aabdd0a2ad15f32fc5c",
+            "reference": "0e9a279dca4799b5d73e1aabdd0a2ad15f32fc5c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "time": "2017-01-07 12:12:44",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WPXServerLight\\MorrisPHP\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Giovambattista Fazioli",
+                "email": "giovambattista.fazioli@gmail.com",
+                "homepage": "http://undolog.com"
+            }
+        ],
+        "description": "WPBones fluent PHP helper classes for morris.js",
+        "homepage": "https://github.com/wpbones/morris-php",
+        "keywords": [
+            "charts",
+            "javascript",
+            "morris",
+            "php"
+        ]
+    }
+]

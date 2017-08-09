@@ -1,0 +1,34 @@
+/**
+ * Dashboard style
+ *
+ * You can keep a bound between css class and plugin name/namespace.
+ * To do this, you have to use the right naming for the css id and class.
+ *
+ */
+.postbox-container {
+  width: 49%;
+}
+.postbox-container .wpxsl-notice-warning {
+  padding: 8px;
+  background-color: rgba(255, 98, 110, 0.2);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.wpxsl-left {
+  margin: 0 8px 0 0;
+}
+.wpxsl-right {
+  margin: 0 0 0 8px;
+  float: right;
+}
+.inside table th {
+  white-space: nowrap;
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+.inside table td {
+  border-bottom: 1px solid #eee;
+  padding: 8px;
+}
